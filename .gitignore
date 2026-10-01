@@ -1,0 +1,15 @@
+# environments
+.venv/
+.env
+
+# data never goes in git (it lives in ./data or Google Drive)
+data/
+
+# tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.DS_Store
+*.part
